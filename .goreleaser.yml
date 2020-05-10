@@ -37,7 +37,7 @@ release:
 nfpms:
   -
     id: health-ftp-nfpms
-    name_template: "{{ .ProjectName }}_{{ .Version }}-1_{{ .Arch }}"
+    package_name: health-ftp
     builds:
       - health-ftp-linux
     homepage: https://github.com/transnano/http-status-for-ftp
