@@ -79,11 +79,8 @@ func (e *Exporter) Describe(ch chan<- *prometheus.Desc) {
 func (e *Exporter) Collect(ch chan<- prometheus.Metric) {
 	e.mutex.Lock() // To protect metrics from concurrent collects.
 	defer e.mutex.Unlock()
-	if err := e.collect(ch); err != nil {
-		log.Errorf("Error scraping proftpd: %s", err)
-		e.checkFailures.Inc()
-		e.checkFailures.Collect(ch)
-	}
+	e.checkSuccesses.Collect(ch)
+	e.checkFailures.Collect(ch)
 }
 
 func main() {
