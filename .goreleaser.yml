@@ -1,12 +1,11 @@
-project_name: health-ftp
+project_name: http-status-for-ftp
 env:
   - GO111MODULE=on
 before:
   hooks:
     - go mod tidy
 builds:
-  - id: main
-    main: .
+  - main: .
     binary: health-ftp
     ldflags:
       - -s -w
@@ -14,13 +13,6 @@ builds:
       - -X main.Revision={{.ShortCommit}}
     env:
       - CGO_ENABLED=0
-  - id: health-ftp-linux
-    env:
-      - CGO_ENABLED=0
-    goos:
-      - linux
-    goarch:
-      - amd64
 archives:
   - name_template: '{{ .ProjectName }}_{{ .Os }}_{{ .Arch }}{{ if .Arm }}v{{ .Arm }}{{ end }}'
     replacements:
@@ -38,8 +30,6 @@ nfpms:
   -
     id: health-ftp-nfpms
     package_name: health-ftp
-    builds:
-      - health-ftp-linux
     homepage: https://github.com/transnano/http-status-for-ftp
     maintainer: Transnano <transnano.jp@gmail.com>
     description: health-ftp is http health checker for ftp server.
