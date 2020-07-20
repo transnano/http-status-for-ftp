@@ -39,6 +39,8 @@ github.com/jlaffaye/ftp v0.0.0-20200422224957-b9f3ade29122 h1:dzYWuozdWNaY7mTQh5
 github.com/jlaffaye/ftp v0.0.0-20200422224957-b9f3ade29122/go.mod h1:PwUeyujmhaGohgOf0kJKxPfk3HcRv8QD/wAUN44go4k=
 github.com/jlaffaye/ftp v0.0.0-20200715164256-5d10dd64f695 h1:YuVucjWWwiYV7Y0vJrwU3gnZ0+Hn4gFtSwwavh/7gxY=
 github.com/jlaffaye/ftp v0.0.0-20200715164256-5d10dd64f695/go.mod h1:2lmrmq866uF2tnje75wQHzmPXhmSWUt7Gyx2vgK1RCU=
+github.com/jlaffaye/ftp v0.0.0-20200720194710-13949d38913e h1:itZyHiOkiB8mIGouegRNLM9LttGQ3yrgRmp/J/6H/0g=
+github.com/jlaffaye/ftp v0.0.0-20200720194710-13949d38913e/go.mod h1:2lmrmq866uF2tnje75wQHzmPXhmSWUt7Gyx2vgK1RCU=
 github.com/json-iterator/go v1.1.6/go.mod h1:+SdeFBvtyEkXs7REEP0seUULqWtbJapLOCVDaaPEHmU=
 github.com/json-iterator/go v1.1.9/go.mod h1:KdQUCv79m/52Kvf8AW2vK1V8akMuk1QjK/uOdHXbAo4=
 github.com/json-iterator/go v1.1.10/go.mod h1:KdQUCv79m/52Kvf8AW2vK1V8akMuk1QjK/uOdHXbAo4=
