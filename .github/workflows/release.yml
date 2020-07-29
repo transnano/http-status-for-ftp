@@ -17,7 +17,7 @@ jobs:
           go-version: 1.14.x
       - name: Set env
         run: |
-          echo "::set-env name=GITHUB_ACTOR::${{ .GITHUB_ACTOR }}"
+          echo "::set-env name=ACTOR::${{ GITHUB_ACTOR }}"
           echo "::set-env name=BRANCH::$(git branch -a | grep -E '^\*' | cut -b 3-)"
       - name: Run GoReleaser
         uses: goreleaser/goreleaser-action@v1
