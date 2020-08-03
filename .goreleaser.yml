@@ -11,9 +11,9 @@ builds:
       - -s -w
       - -X github.com/prometheus/common/version.Version={{.Version}}
       - -X github.com/prometheus/common/version.BuildDate={{.Date}}
-      - -X github.com/prometheus/common/version.Branch={{.Env.BRANCH}}
+      - -X github.com/prometheus/common/version.Branch=master
       - -X github.com/prometheus/common/version.Revision={{.ShortCommit}}
-      - -X github.com/prometheus/common/version.BuildUser={{.Env.ACTOR}}
+      - -X github.com/prometheus/common/version.BuildUser=transnano
     env:
       - CGO_ENABLED=0
 archives:
