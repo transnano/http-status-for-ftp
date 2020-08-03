@@ -1,4 +1,4 @@
-# http-status-for-ftp
+# http-status-for-ftp ![Releases](https://github.com/transnano/http-status-for-ftp/workflows/release/badge.svg) ![Publish Docker image](https://github.com/transnano/http-status-for-ftp/workflows/Publish%20Docker%20image/badge.svg)
 
 ```sh
 $ docker run -it --rm transnano/http-status-for-ftp:v0.0.3 --version
