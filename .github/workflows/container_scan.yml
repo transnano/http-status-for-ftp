@@ -1,4 +1,4 @@
-name: Vulnerability Scan(Trivy Action)
+name: Vulnerability Scan
 # schedule on sunday at 0:00(UTC) = 9:00(JST)
 on:
   schedule:
