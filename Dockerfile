@@ -1,4 +1,4 @@
-FROM golang:1.14.7
+FROM golang:1.15.0
 WORKDIR /go/src/github.com/transnano/http-status-for-ftp/
 COPY . .
 RUN CGO_ENABLED=0 GOOS=linux go build -o health-ftp -ldflags "-s -w \
