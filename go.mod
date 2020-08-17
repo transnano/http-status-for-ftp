@@ -6,6 +6,6 @@ require (
 	github.com/jlaffaye/ftp v0.0.0-20200812143550-39e3779af0db
 	github.com/kelseyhightower/envconfig v1.4.0
 	github.com/prometheus/client_golang v1.7.1
-	github.com/prometheus/common v0.11.1
+	github.com/prometheus/common v0.12.0
 	gopkg.in/alecthomas/kingpin.v2 v2.2.6
 )
