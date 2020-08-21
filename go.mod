@@ -1,6 +1,6 @@
 module github.com/transnano/http-status-for-ftp
 
-go 1.14
+go 1.15
 
 require (
 	github.com/jlaffaye/ftp v0.0.0-20200812143550-39e3779af0db

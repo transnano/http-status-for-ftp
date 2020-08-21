@@ -9,10 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Pull docker image
-        run: docker pull transnano/http-status-for-ftp:latest
+        run: docker pull ${{ github.repository }}:latest
 
       - uses: homoluctus/gitrivy@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          image: transnano/http-status-for-ftp
+          image: ${{ github.repository }}
           issue_assignee: transnano
