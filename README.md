@@ -2,7 +2,7 @@
 
 ![License](https://img.shields.io/github/license/transnano/http-status-for-ftp?style=flat)
 
-![Container image version](https://img.shields.io/docker/v/transnano/http-status-for-ftp?style=flat)
+![Container image version](https://img.shields.io/docker/v/transnano/http-status-for-ftp/latest?style=flat)
 ![Container image size](https://img.shields.io/docker/image-size/transnano/http-status-for-ftp/latest?style=flat)
 ![Container image pulls](https://img.shields.io/docker/pulls/transnano/http-status-for-ftp?style=flat)
 
