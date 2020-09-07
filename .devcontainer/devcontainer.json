@@ -23,7 +23,8 @@
     "shardulm94.trailing-spaces",
     "redhat.vscode-yaml",
     "esbenp.prettier-vscode",
-    "donjayamanne.githistory"
+    "donjayamanne.githistory",
+    "hediet.vscode-drawio"
   ],
 
   // Use 'forwardPorts' to make a list of ports inside the container available locally.

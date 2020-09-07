@@ -29,6 +29,16 @@ jobs:
           tag_with_ref: true
         env:
           DOCKER_BUILDKIT: 1
+      - name: Push to GitHub Container Registry
+        uses: docker/build-push-action@v1
+        with:
+          username: ${{ github.actor }}
+          password: ${{ secrets.CR_PAT }}
+          registry: ghcr.io
+          repository: ${{ github.repository }}
+          tag_with_ref: true
+        env:
+          DOCKER_BUILDKIT: 1
       - name: Push to Docker Hub(latest)
         uses: docker/build-push-action@v1
         with:
@@ -45,6 +55,16 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: docker.pkg.github.com
           repository: ${{ github.repository }}/http-status-for-ftp
+          tags: latest
+        env:
+          DOCKER_BUILDKIT: 1
+      - name: Push to GitHub Container Registry(latest)
+        uses: docker/build-push-action@v1
+        with:
+          username: ${{ github.actor }}
+          password: ${{ secrets.CR_PAT }}
+          registry: ghcr.io
+          repository: ${{ github.repository }}
           tags: latest
         env:
           DOCKER_BUILDKIT: 1

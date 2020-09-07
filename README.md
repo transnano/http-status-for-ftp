@@ -17,3 +17,7 @@ ftpchkr_exporter, version v0.0.3 (branch: docker, revision: 8fb6d14)
   build date:       2020-07-29T05:18:24+0000
   go version:       go1.14.5
 ```
+
+## Overview
+
+<img src="./overview.drawio.svg">
