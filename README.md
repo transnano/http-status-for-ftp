@@ -1,4 +1,4 @@
-# http-status-for-ftp ![Releases](https://github.com/transnano/http-status-for-ftp/workflows/Releases/badge.svg) ![Publish Docker image](https://github.com/transnano/http-status-for-ftp/workflows/Publish%20Docker%20image/badge.svg) ![Vulnerability Scan](https://github.com/transnano/http-status-for-ftp/workflows/Vulnerability%20Scan/badge.svg)
+# http-status-for-ftp ![Releases](https://github.com/transnano/http-status-for-ftp/workflows/Releases/badge.svg) ![Publish Docker image](https://github.com/transnano/http-status-for-ftp/workflows/Publish%20Docker%20image/badge.svg) ![Vulnerability Scan](https://github.com/transnano/http-status-for-ftp/workflows/Vulnerability%20Scan/badge.svg) ![Code Scanning(CodeQL)](https://github.com/transnano/http-status-for-ftp/workflows/Code%20Scanning(CodeQL)/badge.svg)
 
 ![License](https://img.shields.io/github/license/transnano/http-status-for-ftp?style=flat)
 

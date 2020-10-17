@@ -23,7 +23,7 @@ RUN go build -o health-ftp -ldflags "-s -w \
 -X github.com/prometheus/common/version.Revision=$(git rev-parse --short HEAD) \
 -X github.com/prometheus/common/version.BuildUser=transnano"
 
-# Now copy it into our base image.
+# hadolint ignore=DL3006
 FROM gcr.io/distroless/base-debian10
 #FROM gcr.io/distroless/base
 LABEL maintainer="Transnano <transnano.jp@gmail.com>"
