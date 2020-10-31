@@ -12,7 +12,7 @@ builds:
       - -s -w
       - -X github.com/prometheus/common/version.Version={{.Version}}
       - -X github.com/prometheus/common/version.BuildDate={{.Date}}
-      - -X github.com/prometheus/common/version.Branch=master
+      - -X github.com/prometheus/common/version.Branch=main
       - -X github.com/prometheus/common/version.Revision={{.ShortCommit}}
       - -X github.com/prometheus/common/version.BuildUser=transnano
     env:
